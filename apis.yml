@@ -1,8 +1,24 @@
 aid: delphia-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/delphia-therapeutics.png
 name: Delphia Therapeutics
-description: 'Delphia Therapeutics is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Delphia Therapeutics is a Cambridge, Massachusetts oncology biotechnology company pioneering
+  "activation lethality," a precision-medicine approach that targets cancer cells'' vulnerability to
+  oncogene overactivation by selectively over-activating cancer-linked signaling until tumor cells can
+  no longer survive. Founded by oncology drug developers Kevin Marks, Bill Sellers, and Mike Dillon,
+  the company launched with a $67 million Series A financing led by GV, with participation from Nextech
+  Invest, Polaris Innovation Fund, and Alexandria Venture Investments. Delphia is a preclinical-stage
+  drug developer and does not currently publish a public developer API, SDK, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/delphia-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Life Sciences
+- Oncology
+- Biotechnology
+- Cancer
+- Precision Medicine
+- Pharmaceuticals
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/delphia-therapeutics-domain-security.yml
 - type: Website
   url: https://www.delphiatx.com
+- type: PrivacyPolicy
+  url: https://www.delphiatx.com/privacy-policy/
+- type: Blog
+  url: https://www.delphiatx.com/news/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
